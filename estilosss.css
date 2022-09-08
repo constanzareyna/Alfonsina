@@ -1,0 +1,156 @@
+/*estilos generales*/
+
+/*importo*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&display=swap');
+@font-face{
+    font-family: flower;
+    src: url(../alfon/font/flowerpapers/Paper\ Flowers.ttf);
+}
+@font-face{
+    font-family: sophia;
+    src: url(../alfon/font/sophia/Sophia.ttf);
+}
+
+
+header{
+    background-color: rgb(231, 209, 213);
+
+}
+main{
+    background-color: rgb(231, 209, 213);
+}
+footer{
+background-color: rgb(231, 209, 213);
+}
+
+h1{
+    color: grey;
+    text-decoration: underline;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: flower;
+
+}
+
+h2{
+    text-align: center;
+    font-family: sophia;
+    font-size: 4.5rem;
+}
+
+h3{
+    text-decoration: underline;
+
+}
+p{
+    font-family: flower;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+
+a{
+    margin: 45px;
+}
+
+
+
+/*id*/
+#uno{
+    background-color:rgb(231, 209, 213) ;
+}
+
+
+
+
+/*flex box*/
+
+/*Flexbox*/
+
+.is-flex{
+    display:flex;
+}
+
+.is-flex-wrap{
+    flex-wrap: wrap;
+}
+
+.is-no-wrap{
+    flex-wrap: nowrap;
+}
+
+
+
+.is-justify-center{
+    justify-content:center;
+}
+
+.is-justify-evenly{
+    justify-content: space-evenly;
+}
+
+.is-aling-center{
+    align-items: center;
+}
+
+
+
+
+
+.box{
+    border: solid 4px rgb(214, 156, 180);
+    background-image: url(./img/fondo.jpg);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.margen-interno{
+    padding-bottom: 30px;
+}
+
+.bordemap{
+    border-radius: 30px;
+}
+
+.boton{
+    border: 1px solid rgb(223, 180, 69); /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color:  rgb(223, 180, 69); /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    width: 280px;
+    text-align: center;
+    }
+
+    .flor{
+        font-family: flower;
+        font-size: 2rem;
+    }
+
+    .sophia{
+        font-size: 3rem;
+    }
+
+    .flor1{
+        font-size: 3.5rem ;
+    }
+
+    .divcard{
+        margin-bottom: 30px;
+    }
+
+    .divcard2{
+        margin-bottom: 50px;
+    }
+
+    .logoagenda{
+        margin-top: 30px;
+    }
+
+  
