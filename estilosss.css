@@ -99,10 +99,9 @@ a{
 
 
 .box{
-    border: solid 4px rgb(214, 156, 180);
     background-image: url(./img/fondo.jpg);
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 30px;
     padding: 15px;
 }
@@ -152,4 +151,7 @@ a{
         margin-top: 30px;
     }
 
+    .fondomap{
+        background-color: rgb(185, 146, 146);
+    }
   
